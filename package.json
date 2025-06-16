@@ -1,0 +1,37 @@
+{
+  "name": "naughty-logger",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "description": "Nodejs simple logger for development, JavaScript console interface",
+  "keywords": [
+    "nodejs",
+    "console",
+    "logger",
+    "colorful",
+    "logging"
+  ],
+  "readmeFilename": "README.md",
+  "files": [
+    "lib/",
+    "main.d.ts"
+  ],
+  "scripts": {
+    "types": "tsc -p ./tsconfig.json",
+    "test": "node ./test/index.js"
+  },
+  "homepage": "https://github.com/NaughtySora/naughty-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/naughty-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/naughty-logger/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2"
+  }
+}
